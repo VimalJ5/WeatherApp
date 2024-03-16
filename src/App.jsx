@@ -12,7 +12,7 @@ function App() {
   }, []); // Fetch weather data on component mount
 
   const fetchWeatherData = async (city) => {
-    const apiKey = 'f59e6a77df2caa71e73620aea030c7fc';
+    const apiKey = '';
     const endpoint = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
